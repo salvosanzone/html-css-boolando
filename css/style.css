@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  /* background-color: brown; */
+}
+
+.row{
+  height: 450px;
+  /* background-color: cadetblue; */
+}
+
+.card{
+  display: inline-block;
+  width: 32%;
+  height: 100%;
+  margin-right: 11px;
+  background-color: darkkhaki;
+}
+
+.card-top{
+  height: 80%;
+  background-color: darkorange;
+}
+
+.card-bottom{
+  height: 20%;
+  background-color: darkorchid;
+}
