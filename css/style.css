@@ -19,7 +19,7 @@
   display: inline-block;
   width: 32%;
   height: 100%;
-  margin-right: 11px;
+  margin-right: 1%;
   background-color: darkkhaki;
   
 
@@ -28,25 +28,40 @@
 .card-top{
   height: 80%;
   background-color: darkorange;
-
-
+  position: relative;
 }
+
+.card-top:hover{
+  cursor: pointer;
+}
+
+
+
 
 .img-default{
   width: 100%;
-  position: relative;
-
 
 }
+
+
 
 .img-hover{
-  width:100px;
-  height: 100px;
-  background-size: contain;
-  position: absolute:left:20px;
+  width:100%;
+  position: absolute;
+   display: none; /*di default non si vede */
+  
 }
 
 
+/*se passo il cursore su .card-top spunta.img-hover*/
+.card-top:hover .img-hover{ 
+  display: block;
+}
+
+/*se passo il cursore su .card-top spunta.img-hover e .img-default scompare*/
+.card-top:hover .img-default{
+  display: none;
+}
 
 .card-bottom{
   height: 20%;
