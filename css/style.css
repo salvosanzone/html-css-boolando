@@ -6,14 +6,13 @@
 
 .container{
   width: 80%;
-  height: 500px;
   margin: auto;
-  /* background-color: brown; */
 }
 
 .row{
-  height: 450px;
-  /* background-color: cadetblue; */
+  margin: auto;
+  height: 624px;
+  background-color: cadetblue;
 }
 
 .card{
@@ -22,14 +21,36 @@
   height: 100%;
   margin-right: 11px;
   background-color: darkkhaki;
+  
+
 }
 
 .card-top{
   height: 80%;
   background-color: darkorange;
+
+
 }
+
+.img-default{
+  width: 100%;
+  position: relative;
+
+
+}
+
+.img-hover{
+  width:100px;
+  height: 100px;
+  background-size: contain;
+  position: absolute:left:20px;
+}
+
+
 
 .card-bottom{
   height: 20%;
-  background-color: darkorchid;
+  
 }
+
+
